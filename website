@@ -1,0 +1,115 @@
+      <div class="brief-auszug">[Hier einen Auszug aus dem Brief zur Reise einfügen, 3 bis 5 Zeilen. Beginne zum Beispiel mit "Liebe Saskia," und erzähle in Opas Stil den Anfang dieser Reise.]</div>
+      <p>[Kurzer Text zur Reise: Wo war Opa, wann, warum? Hier trägst du ein, was dein Papa erzählt hat.]</p>
+    </section>
+
+    <!-- Abschnitt 5: Produkte -->
+    <section class="section" id="produkte">
+      <div class="section-title">Die Produkte zur Reise</div>
+      <div class="produkte">
+        <div class="produkt-card">
+          <img src="/bilder/produkt-kalender.jpg" alt="[Kalender zur Reise]" class="produkt-img">
+          <div class="produkt-name">Kalender [Name eintragen]</div>
+          <div>[Kurzbeschreibung: 12 Motive aus der Reise, jedes Monatsblatt mit einem Satz von Opa.]</div>
+          <div class="produkt-preis">[Preis] €</div>
+          <a href="[Shop-Link]" class="btn">Zum Shop</a>
+        </div>
+        <div class="produkt-card">
+          <img src="/bilder/produkt-poster.jpg" alt="[Kunstdruck zur Reise]" class="produkt-img">
+          <div class="produkt-name">Kunstdruck [Name eintragen]</div>
+          <div>[Kurzbeschreibung: Motiv, Format, Papier.]</div>
+          <div class="produkt-preis">[Preis] €</div>
+          <a href="[Shop-Link]" class="btn">Zum Shop</a>
+        </div>
+        <div class="produkt-card">
+          <img src="/bilder/produkt-postkarten.jpg" alt="[Postkarten-Set zur Reise]" class="produkt-img">
+          <div class="produkt-name">Postkarten-Set [Name eintragen]</div>
+          <div>[Kurzbeschreibung: Anzahl der Karten, Motive.]</div>
+          <div class="produkt-preis">[Preis] €</div>
+          <a href="[Shop-Link]" class="btn">Zum Shop</a>
+        </div>
+        <div class="produkt-card">
+          <img src="/bilder/produkt-textil.jpg" alt="[Shirt oder Tasche zur Reise]" class="produkt-img">
+          <div class="produkt-name">[Shirt oder Tasche, Name eintragen]</div>
+          <div>[Kurzbeschreibung: Motiv, Material, Größen.]</div>
+          <div class="produkt-preis">[Preis] €</div>
+          <a href="[Shop-Link]" class="btn">Zum Shop</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Abschnitt 6: Opas Kunst -->
+    <section class="section" id="kunst">
+      <div class="section-title">Opas Kunst</div>
+      <div class="kunst-galerie">
+        <img src="/bilder/kunst-01.jpg" alt="[Gemälde 1, Titel und Jahr eintragen]" class="kunst-img">
+        <img src="/bilder/kunst-02.jpg" alt="[Gemälde 2, Titel und Jahr eintragen]" class="kunst-img">
+        <img src="/bilder/kunst-03.jpg" alt="[Gemälde 3, Titel und Jahr eintragen]" class="kunst-img">
+        <img src="/bilder/kunst-04.jpg" alt="[Gemälde 4, Titel und Jahr eintragen]" class="kunst-img">
+      </div>
+      <p>[Ein paar Sätze von dir: Wie hängen seine Fotos und seine Gemälde zusammen? Was hat er gesehen, und was hat er daraus gemacht?]</p>
+    </section>
+
+    <!-- Abschnitt 7: Wer steckt dahinter -->
+    <section class="section" id="ueber-mich">
+      <div class="section-title">Wer steckt dahinter?</div>
+      <div class="kurzgeschichte">
+        <img src="/bilder/saskia.jpg" alt="[Foto von dir]" class="kurzgeschichte-img">
+        <div>
+          <p>[Dein eigener Text über dich: Wer bist du, was verbindet dich mit deinem Opa, warum machst du das?]</p>
+          <p>Mein Papa erzählt, ich schreibe auf.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Abschnitt 8: Häufige Fragen -->
+    <section class="section" id="faq">
+      <div class="section-title">Häufige Fragen</div>
+      <div class="faq">
+        <div class="faq-item">
+          <div class="faq-q">Sind die Briefe von deinem Opa?</div>
+          <div>Nein. Mein Opa ist gestorben. Ich schreibe die Briefe nach den Erzählungen meines Papas, im Stil meines Opas. Es sind Briefe, die er so hätte schreiben können.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Woher stammen die Bilder?</div>
+          <div>Die Fotos und Gemälde stammen von meinem Opa. Die Bilder und Geschichten dazu hat mein Papa zusammengetragen. [Bei Bedarf ergänzen.]</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Wie bekomme ich den Brief?</div>
+          <div>[Hier eintragen: digital per E-Mail, per QR-Code oder als Beilage.]</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">Wie lange dauert der Versand?</div>
+          <div>[Hier eintragen, je nach Anbieter.]</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q">[Weitere Frage]</div>
+          <div>[Antwort]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Abschnitt 9: Newsletter -->
+    <section class="newsletter" id="newsletter">
+      <div class="newsletter-title">Jeden Monat ein Brief von Opa</div>
+      <div>[Text anpassen: Ein Brief, ein Foto, eine Geschichte, direkt in dein Postfach.]</div>
+      <form class="newsletter-form" action="[Newsletter-Anbieter-Link]" method="post">
+        <label for="email" style="position:absolute;left:-9999px;">E-Mail-Adresse</label>
+        <input type="email" id="email" name="email" class="newsletter-input" placeholder="Deine E-Mail-Adresse" required>
+        <button type="submit" class="btn">Anmelden</button>
+        <small>[Datenschutzhinweis eintragen, zum Beispiel: Ich verwende deine Adresse nur für den Newsletter. Abmeldung jederzeit möglich.]</small>
+      </form>
+    </section>
+  </main>
+
+  <!-- Abschnitt 10: Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="[Impressum-Link]" class="footer-link">Impressum</a>
+      <a href="[Datenschutz-Link]" class="footer-link">Datenschutz</a>
+      <a href="[Kontakt-Link]" class="footer-link">Kontakt</a>
+      <a href="https://www.instagram.com/briefevonopa" class="footer-link insta">Instagram @briefevonopa</a>
+    </div>
+    <div>© [Jahr] briefevonopa</div>
+  </footer>
+</body>
+</html>
